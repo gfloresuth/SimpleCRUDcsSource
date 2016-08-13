@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="SimpleCRUDcsModel.ErrorHandler">
+    <Position X="3.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAACAAAAAAAAABABCAAAAAAAA=</HashCode>
+      <FileName>ErrorHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleCRUDcsModel.SimpleResponse">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAQA=</HashCode>
+      <FileName>SimpleResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleCRUDcsModel.UserData">
+    <Position X="7.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAAAAAAAAAAAAAAAwAAAAACAAKAAAAAAEAAAA=</HashCode>
+      <FileName>UserData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleCRUDcsModel.UserModel">
+    <Position X="2.25" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAABABAAAAAAAAAAAAAAAAAAAAAAIBAAAAQ=</HashCode>
+      <FileName>UserModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimpleCRUDcsModel.MySQLDriver.MySQLDriver">
+    <Position X="4" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAACAAQAAAAABAAAAAAIAAAAAABAA=</HashCode>
+      <FileName>MySQLDriver\MySQLDriver.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SimpleCRUDcsModel.MySQLDriver.MySQLSimpleReader">
+    <Position X="5.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKEAAAAAAAEAAAAAAAAAAAAAAAQAAAAABIhAAAAAAAA=</HashCode>
+      <FileName>MySQLDriver\MySQLSimpleReader.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="SimpleCRUDcsModel.IDatabaseConnection">
+    <Position X="1.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAACAAQAAAAABAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>IDatabaseConnection.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="SimpleCRUDcsModel.IDataReader">
+    <Position X="5.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKAAAAAAAAEAAAAAAAAAAAAAAAQAAAAABIgAAAAAAAA=</HashCode>
+      <FileName>IDataReader.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

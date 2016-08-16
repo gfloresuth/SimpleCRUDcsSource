@@ -16,6 +16,12 @@ namespace SimpleCRUDcsModel
 
             _driver = aDriver;
         }
+        //private string campoTexto(string nombreCampo, string valor)
+        //{
+        //    string respuesta;
+        //    respuesta = nombreCampo + "='" + valor + "' ";
+        //    return respuesta;
+        //}
         public DataTable getAllUsers()
         {
             DataTable table= new DataTable();
@@ -23,8 +29,16 @@ namespace SimpleCRUDcsModel
             Dictionary<string, object> parameters;
             string sql;
             clearErrors();
+            //string parametrosTexto;
+            //string tipo="alumno";
+            //string grupo = "cuarto";
             if (_driver.open())
             {
+                //sql = "select * from users user_type='"++"'";
+                //parametrosTexto = string.Format("tipoUsuario='{0}' and grupo='{1}'", tipo,grupo);
+                //sql = "select * from users where " + parametrosTexto;
+
+                //sql = "select * from users where " + campoTexto("tipoUsuario",tipo) +" and " + campoTexto("tipoUsuario", grupo);
                 sql = "select * from users";
                 parameters = new Dictionary<string, object>();
                 reader = _driver.executeSQLReader(sql, parameters);
@@ -66,6 +80,8 @@ namespace SimpleCRUDcsModel
             Dictionary<string, object> parameters;
             parameters = new Dictionary<string, object>();
             sql = "insert into users(user_id,name,pwd,user_type) values(?user_id,?name,?pwd,?user_type);";
+            //MySql.Data.MySqlClient.MySqlCommand cmd;
+            //cmd.Parameters.AddWithValue("?grupo", a);
             parameters.Add("?user_id", aUser.UserId);
             parameters.Add("?name", aUser.Name);
             parameters.Add("?pwd", aUser.Password);
